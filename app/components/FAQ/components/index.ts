@@ -1,0 +1,1 @@
+export { AccordionFAQ } from "./Accordion";
