@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export const Hero = ({ handleMouseEnter, handleMouseLeave }: IHero) => {
   return (
-    <section className="min-h-screen flex flex-col md:flex-row justify-center gap-5 md:gap-[10rem] items-center relative text-white px-10">
+    <section className="min-h-screen flex flex-col md:flex-row justify-center gap-5 md:gap-[10rem] items-center relative text-white px-10 lg:px-40 py-40 md:py-0">
       <motion.div
         className="flex flex-col gap-5"
         initial={{ x: -100, opacity: 0 }}
