@@ -28,7 +28,7 @@ export const Hero = ({ handleMouseEnter, handleMouseLeave }: IHero) => {
         </h2>
 
         <Link
-          href="https://wa.me/8123697420/?text=Hola,%20quiero%una%página%web"
+          href="https://wa.me/8123697420/?text=Hola,%20quiero%20una%20página%20web"
           target="_blank"
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}

@@ -26,7 +26,7 @@ export const FAQ = () => {
           <div className="flex items-center mt-5 md:mt-10 justify-center md:justify-start">
             <div className="relative flex items-center gap-2 group">
               <Link
-                href="https://wa.me/8123697420/?text=Hola,%20quiero%hacer%una%pregunta"
+                href="https://wa.me/8123697420/?text=Hola,%20quiero%20hacer%20una%20pregunta"
                 className="font-sans"
                 target="_blank"
               >

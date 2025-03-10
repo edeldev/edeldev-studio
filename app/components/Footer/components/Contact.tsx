@@ -10,7 +10,7 @@ export const Contact = () => {
       <div className="col-span-6 flex flex-col gap-5">
         <p className="text-primary text-4xl uppercase">¿Hablamos?</p>
         <Link
-          href="https://wa.me/8123697420/?text=Hola,%20quiero%una%página%web"
+          href="https://wa.me/8123697420/?text=Hola,%20quiero%20una%20página%20web"
           target="_blank"
           className="font-sans underline"
         >

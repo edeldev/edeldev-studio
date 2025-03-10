@@ -29,7 +29,7 @@ export const Header = ({ handleMouseEnter, handleMouseLeave }: IHeader) => {
         animate={{ color: isScrolled ? "#000" : "#fff" }}
       >
         <Link
-          href="https://wa.me/8123697420/?text=Hola,%20quiero%contarte%sobre%mi%proyecto"
+          href="https://wa.me/8123697420/?text=Hola,%20quiero%20contarte%20sobre%20mi%20proyecto"
           target="_blank"
           className="flex-1 hidden md:block"
           onMouseEnter={handleMouseEnter}

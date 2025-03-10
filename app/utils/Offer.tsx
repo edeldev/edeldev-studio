@@ -31,7 +31,7 @@ export const OFFER: GridItemProps[] = [
     ),
     title: "¡Vamos a crear juntos!",
     description: "Cuentanos tu proyecto.",
-    link: "https://wa.me/8123697420/?text=Hola,%20quiero%una%página%web",
+    link: "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20página%20web",
   },
   {
     id: 4,
@@ -49,6 +49,6 @@ export const OFFER: GridItemProps[] = [
     ),
     title: "¿Comenzamos?",
     description: "Creando experiencias únicas.",
-    link: "https://wa.me/8123697420/?text=Hola,%20quiero%una%página%web",
+    link: "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20página%20web",
   },
 ];

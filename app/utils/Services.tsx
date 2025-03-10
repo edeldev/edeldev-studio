@@ -10,7 +10,7 @@ export const SERVICES: IService[] = [
     ),
     price: "2,000 MXN",
     duration: "3 - 6 días",
-    link: "https://google.com",
+    link: "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20landing%20page",
     services: [
       {
         id: 1,
@@ -54,7 +54,7 @@ export const SERVICES: IService[] = [
     ),
     price: "3,000 MXN",
     duration: "4 - 7 días",
-    link: "https://facebook.com",
+    link: "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20multipágina",
     services: [
       {
         id: 1,
