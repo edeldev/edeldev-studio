@@ -22,6 +22,11 @@ export const Hero = ({ handleMouseEnter, handleMouseLeave }: IHero) => {
           <span className="block italic uppercase">presencia digital</span>
         </h1>
 
+        <h2 className="md:order-2 text-xl font-light font-sans md:w-[65%]">
+          Creamos sitios web modernos y funcionales que potencian tu marca y
+          generan resultados.
+        </h2>
+
         <Link
           href="https://wa.me/8123697420/?text=Hola,%20quiero%una%página%web"
           target="_blank"
