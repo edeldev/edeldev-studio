@@ -11,6 +11,10 @@ body {
   background-color: #10101a;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
 .font-alumni {
   font-family: var(--font-alumni-sans-pinstripe), sans-serif;
 }

@@ -8,7 +8,7 @@ export const SERVICES: IService[] = [
     icon: (
       <IconAppWindowFilled className="w-[24px] h-[24px] md:w-[35px] md:h-[35px] stroke-none" />
     ),
-    price: "3,000 MXN",
+    price: "2,000 MXN",
     duration: "3 - 6 días",
     link: "https://google.com",
     services: [
@@ -52,7 +52,7 @@ export const SERVICES: IService[] = [
     icon: (
       <IconAppWindowFilled className="w-[24px] h-[24px] md:w-[35px] md:h-[35px] stroke-none" />
     ),
-    price: "4,000 MXN",
+    price: "3,000 MXN",
     duration: "4 - 7 días",
     link: "https://facebook.com",
     services: [

@@ -51,8 +51,7 @@ export const Header = ({ handleMouseEnter, handleMouseLeave }: IHeader) => {
             <Image
               src={isScrolled ? LOGO_BLACK : LOGO_WHITE}
               alt="logo"
-              width={150}
-              height={150}
+              className="aspect-square w-[140px] h-[70px]"
             />
           </motion.div>
         </Link>
