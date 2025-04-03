@@ -22,7 +22,7 @@ export const Hero = ({ handleMouseEnter, handleMouseLeave }: IHero) => {
           <span className="block italic uppercase">presencia digital</span>
         </h1>
 
-        <h2 className="md:order-2 text-xl font-light font-sans md:w-[65%]">
+        <h2 className="md:order-2 text-xl font-light font-sans text-balance">
           Creamos sitios web modernos y funcionales que potencian tu marca y
           generan resultados.
         </h2>

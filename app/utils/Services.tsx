@@ -8,7 +8,7 @@ export const SERVICES: IService[] = [
     icon: (
       <IconAppWindowFilled className="w-[24px] h-[24px] md:w-[35px] md:h-[35px] stroke-none" />
     ),
-    price: "2,000 MXN",
+    price: "3,500 MXN",
     duration: "3 - 6 días",
     link: "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20landing%20page",
     services: [
@@ -52,7 +52,7 @@ export const SERVICES: IService[] = [
     icon: (
       <IconAppWindowFilled className="w-[24px] h-[24px] md:w-[35px] md:h-[35px] stroke-none" />
     ),
-    price: "3,000 MXN",
+    price: "4,500 MXN",
     duration: "4 - 7 días",
     link: "https://wa.me/8123697420/?text=Hola,%20quiero%20una%20multipágina",
     services: [

@@ -17,6 +17,7 @@ export type TTestimonialPeople = {
 };
 
 export type TProyect = {
+  id: number;
   title: string;
   link: string;
   thumbnail: StaticImageData;

@@ -28,15 +28,16 @@ export const Header = ({ handleMouseEnter, handleMouseLeave }: IHeader) => {
         className="flex justify-between items-center p-5 md:p-10 w-full fixed h-[6rem] z-20"
         animate={{ color: isScrolled ? "#000" : "#fff" }}
       >
-        <Link
-          href="https://wa.me/8123697420/?text=Hola,%20quiero%20contarte%20sobre%20mi%20proyecto"
-          target="_blank"
-          className="flex-1 hidden md:block"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          Cuéntanos tu proyecto
-        </Link>
+        <div className="hidden md:flex flex-1">
+          <Link
+            href="https://wa.me/8123697420/?text=Hola,%20quiero%20contarte%20sobre%20mi%20proyecto"
+            target="_blank"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            Cuéntanos tu proyecto
+          </Link>
+        </div>
 
         <Link
           href="#menu"
@@ -51,19 +52,21 @@ export const Header = ({ handleMouseEnter, handleMouseLeave }: IHeader) => {
             <Image
               src={isScrolled ? LOGO_BLACK : LOGO_WHITE}
               alt="logo"
-              className="aspect-square w-[140px] h-[70px]"
+              className="aspect-square w-[150px] h-[70px]"
             />
           </motion.div>
         </Link>
 
-        <p
-          className="flex-1 text-end cursor-pointer"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-          onClick={() => setOpen(true)}
-        >
-          Menu
-        </p>
+        <div className="flex-1 flex justify-end">
+          <p
+            className="cursor-pointer"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            onClick={() => setOpen(true)}
+          >
+            Menu
+          </p>
+        </div>
       </motion.nav>
       <MenuNavbar open={open} setOpen={setOpen} />
     </Fragment>

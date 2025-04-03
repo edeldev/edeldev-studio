@@ -14,6 +14,7 @@ export const HeroParallax = ({
   products,
 }: {
   products: {
+    id: number;
     title: string;
     link: string;
     thumbnail: StaticImageData;
@@ -73,7 +74,7 @@ export const HeroParallax = ({
             <ProductCard
               product={product}
               translate={translateX}
-              key={product.title}
+              key={product.id}
             />
           ))}
         </motion.div>
